@@ -20,6 +20,7 @@ DediConnect uses containerization software (Docker) to isolate containers, there
 In order to avoid performance penalties as much as possible is it recommended that you install DediConnect on a bare-metal machine directly. You can use software like KVM and Proxmox, but do note that this will have a slight performance impact on the hosted game servers.
 
 Installing DediConnect inside a Hyper-V or Docker container may cause breaking issues. We do not recommend this setup as it's causing nested containerization.
+TrueNas Scale has been tested and is incompatible with DediConnect.
 
 ## Dedicated IP
 In order for people and GSA to connect with your machine, you need to make sure that your internet connection has a dedicated IP (or a dynamic IP that never changes). Contact your Internet Service Provider for more information.
